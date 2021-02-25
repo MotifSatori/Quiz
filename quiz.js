@@ -25,9 +25,10 @@ function check() {
     quiz.style.display="none";
   
      if (correct<=7) {
-         result.textContent= 'You Failed :( Please refresh & try again.'
+         result.textContent= 'You Failed :( Please refresh & try again.';
+         result.innerHTML += '<img src = "https://www.digitalartsonline.co.uk/cmsdata/features/3782497/05.gif">';
      } else {
-         result.textContent= 'You Passed :) You are ready for the real thing! ' 
-         
+         result.textContent= 'You Passed :) You are ready for the real thing! '; 
+         result.innerHTML += '<img src = "https://www.digitalartsonline.co.uk/cmsdata/features/3782497/04.gif">';
      }
 }
