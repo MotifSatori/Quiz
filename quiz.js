@@ -10,7 +10,7 @@ function check() {
     var q8=document.quiz.question8.value;
     var q9=document.quiz.question9.value;
     var q10=document.quiz.question10.value;
-    var result=document.getElementById('result');
+    var result=document.getElementById("result");
     var quiz=document.getElementById("quiz");
     if (q1=="Swinging wide") {correct++}
     if (q2=="Lanes of traffic traveling in opposite directions") {correct++}
